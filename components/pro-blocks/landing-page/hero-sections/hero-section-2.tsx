@@ -54,7 +54,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Automatic CRM updates
+                10K+ Pengunjung Setiap Kota
               </span>
             </div>
           </div>
