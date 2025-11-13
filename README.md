@@ -1,4 +1,4 @@
-# MindSpace - SaaS Landing Page T
+# Campus Expo
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 

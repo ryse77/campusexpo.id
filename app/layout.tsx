@@ -9,9 +9,9 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-  title: "MindSpace - template built with shadcndesign.com",
+  title: "Campus Expo - Rasakan Pengalaman Kuliah di Kampus Impianmu",
   description:
-    "MindSpace is a modern and clean SaaS shadcn/ui template built with Pro Blocks",
+    "Campus Expo 2026 hadir di 6 kota Jawa Tengah & DIY — jembatan antara siswa, orang tua, dan kampus terbaik.",
     generator: 'v0.app'
 };
 
