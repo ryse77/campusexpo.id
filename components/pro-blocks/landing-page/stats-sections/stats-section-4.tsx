@@ -9,11 +9,10 @@ export function StatsSection4() {
       <div className="container-padding-x container mx-auto">
         <div className="flex flex-col gap-10 md:gap-12">
           <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
-            <Tagline>Metrics</Tagline>
-            <h2 className="heading-lg text-foreground">Numbers don’t lie</h2>
+            <Tagline>Skala Acara</Tagline>
+            <h2 className="heading-lg text-foreground">Jangkauan Luas, Dampak Nyata</h2>
             <p className="text-muted-foreground">
-              Add a concise value statement that explains how your metrics
-              demonstrate success and growth. Focus on transformation.
+              Campus Expo 2026 hadir dengan skala besar untuk menghubungkan ribuan siswa dengan perguruan tinggi terbaik di 6 kota strategis.
             </p>
           </div>
 
@@ -21,41 +20,38 @@ export function StatsSection4() {
             <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
               <CardContent className="flex flex-col gap-2 p-0 md:gap-3">
                 <h3 className="text-primary font-semibold">
-                  Meetings analyzed
+                  Kota Roadshow
                 </h3>
                 <span className="text-foreground text-3xl font-semibold md:text-4xl">
-                  5M+
+                  6 Kota
                 </span>
 
                 <p className="text-muted-foreground text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                  interdum hendrerit ex vitae sodales.
+                  Hadir di Semarang, Surakarta, Yogyakarta, Purwokerto, Tegal, dan Pekalongan untuk menjangkau lebih banyak siswa.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
               <CardContent className="flex flex-col gap-2 p-0 md:gap-3">
-                <h3 className="text-primary font-semibold">Hours saved</h3>
+                <h3 className="text-primary font-semibold">Perguruan Tinggi</h3>
                 <span className="text-foreground text-3xl font-semibold md:text-4xl">
-                  500K+
+                  100+
                 </span>
                 <p className="text-muted-foreground text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                  interdum hendrerit ex vitae sodales.
+                  Universitas terkemuka dari dalam dan luar negeri siap memberikan informasi terbaik untuk masa depan Anda.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="bg-secondary rounded-xl border-none p-6 shadow-none">
               <CardContent className="flex flex-col gap-2 p-0 md:gap-3">
-                <h3 className="text-primary font-semibold">Rating</h3>
+                <h3 className="text-primary font-semibold">Total Pengunjung</h3>
                 <span className="text-foreground text-3xl font-semibold md:text-4xl">
-                  4.85/5
+                  90K-120K
                 </span>
                 <p className="text-muted-foreground text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                  interdum hendrerit ex vitae sodales.
+                  Siswa, orang tua, dan guru dari seluruh Jawa Tengah dan DIY akan hadir untuk menemukan kampus impian.
                 </p>
               </CardContent>
             </Card>

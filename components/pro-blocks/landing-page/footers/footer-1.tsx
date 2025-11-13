@@ -28,38 +28,31 @@ export function Footer1() {
               href="/"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Home
+              Beranda
             </Link>
             <Link
               href="#features"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Features
+              Benefit
             </Link>
             <Link
               href="#how-it-works"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              How it works
+              Konsep Acara
             </Link>
             <Link
-              href="https://www.shadcndesign.com/pro-blocks"
-              target="_blank"
+              href="#pricing"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Docs
+              Paket
             </Link>
             <Link
               href="#faq"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               FAQ
-            </Link>
-            <Link
-              href="#pricing"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Pricing
             </Link>
           </nav>
         </div>
@@ -71,50 +64,32 @@ export function Footer1() {
         <div className="flex w-full flex-col-reverse items-center gap-12 text-sm lg:flex-row lg:justify-between lg:gap-6">
           {/* Copyright Text */}
           <p className="text-muted-foreground text-center lg:text-left">
-            Built with{" "}
-            <Link
-              href="https://www.shadcndesign.com/pro-blocks"
-              className="underline"
-              target="_blank"
-            >
-              Pro Blocks
-            </Link>{" "}
-            by{" "}
-            <Link
-              href="https://www.shadcndesign.com/"
-              className="underline"
-              target="_blank"
-            >
-              shadcndesign.com
-            </Link>
-            . All rights reserved.
+            © 2026 PT. Visi Generasi Mulia. All rights reserved.
           </p>
 
-          {/* Legal Navigation */}
+          {/* Contact Navigation */}
           <nav
             className="flex flex-col items-center gap-6 text-sm md:flex-row md:gap-8"
-            aria-label="Legal links"
+            aria-label="Contact links"
           >
             <Link
-              href="https://www.shadcndesign.com/pro-blocks"
-              target="_blank"
+              href="mailto:hello@campusexpo.id"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Privacy Policy
+              hello@campusexpo.id
             </Link>
             <Link
-              href="https://www.shadcndesign.com/pro-blocks"
+              href="https://wa.me/6281261286706"
               target="_blank"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Terms of Service
+              0812-6128-6706
             </Link>
             <Link
-              href="https://www.shadcndesign.com/pro-blocks"
-              target="_blank"
+              href="https://www.campusexpo.id"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Cookies Settings
+              www.campusexpo.id
             </Link>
           </nav>
         </div>

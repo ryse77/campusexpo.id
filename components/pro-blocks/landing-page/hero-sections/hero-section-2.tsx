@@ -5,6 +5,7 @@ import { Check, ArrowRight } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Tagline } from "@/components/pro-blocks/landing-page/tagline";
 import Image from "next/image";
+import Link from "next/link";
 
 export function HeroSection2() {
   return (
@@ -36,7 +37,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                +500 Universitas Terbaik
+                100+ Universitas Terkemuka
               </span>
             </div>
 
@@ -45,7 +46,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                +200 Program Studi
+                Roadshow 6 Kota Jateng & DIY
               </span>
             </div>
 
@@ -54,16 +55,18 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                10K+ Pengunjung Setiap Kota
+                15.000-20.000 Pengunjung Per Kota
               </span>
             </div>
           </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button>Try for free</Button>
+            <Link href="https://wa.me/6281261286706?text=Halo,%20saya%20ingin%20mendaftar%20Campus%20Expo%202026" target="_blank">
+              <Button className="w-full sm:w-auto">Daftar Sekarang</Button>
+            </Link>
             <Button variant="ghost">
-              How it works
+              Lihat Jadwal
               <ArrowRight />
             </Button>
           </div>

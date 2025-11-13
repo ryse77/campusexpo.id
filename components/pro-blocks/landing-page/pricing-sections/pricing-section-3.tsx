@@ -12,38 +12,40 @@ import {
 } from "@/components/ui/tooltip";
 import { Tagline } from "@/components/pro-blocks/landing-page/tagline";
 import { VariantProps } from "class-variance-authority";
+import Link from "next/link";
 
 const pricingData = {
   plans: [
     {
-      name: "Free",
+      name: "Basic",
       description:
-        "A short benefit statement that highlights the ideal user for this tier.",
+        "Paket ideal untuk perguruan tinggi yang ingin hadir di seluruh kota dengan harga terjangkau.",
       features: [
-        { name: "10 meetings/month", tooltip: "Usage limit for the free tier" },
+        { name: "Booth standar 2x3m", tooltip: "Ruang booth standar untuk display universitas Anda" },
         {
-          name: "Basic transcription",
-          tooltip: "Standard accuracy transcription",
+          name: "Publikasi logo di website & sosmed",
+          tooltip: "Logo Anda akan tampil di materi promosi pendukung",
         },
-        { name: "30-day history", tooltip: "Access past meetings for 30 days" },
+        { name: "Akses ke 6 kota roadshow", tooltip: "Hadir di Semarang, Surakarta, Yogyakarta, Purwokerto, Tegal, dan Pekalongan" },
       ],
-      price: 0,
-      period: "/month",
+      price: "7.680.000",
+      period: "/6 kota",
       variant: "outline",
     },
     {
-      name: "Pro",
+      name: "Platinum",
       description:
-        "A short benefit statement that highlights the ideal user for this tier.",
+        "Paket lengkap dengan benefit eksklusif untuk memaksimalkan visibilitas dan interaksi dengan calon mahasiswa.",
       features: [
-        { name: "Unlimited meetings", tooltip: "No caps on meeting count" },
-        { name: "Advanced transcription", tooltip: "Higher accuracy models" },
-        { name: "Unlimited history", tooltip: "Full access to past meetings" },
-        { name: "Integrations", tooltip: "Connect to your favorite tools" },
-        { name: "24/7 support", tooltip: "Round-the-clock assistance" },
+        { name: "Booth strategis 2x3m", tooltip: "Posisi booth premium di area strategis" },
+        { name: "Sesi seminar/presentasi eksklusif", tooltip: "Slot presentasi 30-45 menit (kuota terbatas)" },
+        { name: "Akses database pengunjung", tooltip: "Data leads untuk follow-up rekrutmen" },
+        { name: "Publikasi logo di semua materi promosi", tooltip: "Logo di spanduk, poster, website, dan media sosial" },
+        { name: "Highlight di media sosial event", tooltip: "Promosi khusus di akun media sosial Campus Expo" },
+        { name: "Listing program Campus Tour", tooltip: "Tercantum dalam program Campus Tour setelah pameran" },
       ],
-      price: 15,
-      period: "/user/month",
+      price: "9.600.000",
+      period: "/6 kota",
       variant: "default",
       highlighted: true,
     },
@@ -62,7 +64,7 @@ export function PricingSection3() {
           {/* Section Header */}
           <div className="section-title-gap-lg flex max-w-xl flex-col items-center text-center">
             {/* Category Tag */}
-            <Tagline>Pricing</Tagline>
+            <Tagline>Paket Partisipasi</Tagline>
             {/* Main Title */}
             <h2
               id="pricing-section-title-3"
@@ -104,7 +106,7 @@ export function PricingSection3() {
                     {/* Price Display with Currency and Period */}
                     <div className="flex items-end gap-0.5">
                       <span className="text-4xl font-semibold">
-                        ${plan.price}
+                        Rp {plan.price}
                       </span>
                       <span className="text-muted-foreground text-base">
                         {pricingData.plans[index].period ?? "/month"}
@@ -112,16 +114,21 @@ export function PricingSection3() {
                     </div>
 
                     {/* Call-to-Action Button */}
-                    <Button
-                      variant={
-                        plan.variant as VariantProps<
-                          typeof buttonVariants
-                        >["variant"]
-                      }
-                      className="w-full"
+                    <Link
+                      href={`https://wa.me/6281261286706?text=Halo,%20saya%20tertarik%20dengan%20paket%20${plan.name}%20Campus%20Expo%202026`}
+                      target="_blank"
                     >
-                      Purchase plan
-                    </Button>
+                      <Button
+                        variant={
+                          plan.variant as VariantProps<
+                            typeof buttonVariants
+                          >["variant"]
+                        }
+                        className="w-full"
+                      >
+                        Daftar Paket
+                      </Button>
+                    </Link>
                   </div>
 
                   {/* Features List Section */}

@@ -4,7 +4,7 @@ export const Logo = ({ className = "" }) => {
   return (
     <div className={`flex items-center ${className}`}>
       <Image
-        src="/logo-vgm.png"
+        src="/logo-vgm.svg"
         alt="VGM Logo"
         width={135}
         height={36}

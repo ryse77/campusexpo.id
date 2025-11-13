@@ -11,10 +11,10 @@ export function BentoGrid6() {
         {/* Section Title */}
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
           {/* Tagline */}
-          <Tagline>Features</Tagline>
+          <Tagline>Benefit untuk Anda</Tagline>
           {/* Main Heading */}
           <h2 className="heading-lg">
-            Capture, organize, and surface meeting insights
+            Mengapa Mengikuti Campus Expo 2026?
           </h2>
         </div>
 
@@ -38,10 +38,10 @@ export function BentoGrid6() {
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                AI Meeting Notes
+                Konsultasi Langsung dengan Universitas
               </h3>
               <p className="text-muted-foreground">
-                Automatic summaries with key decisions & action items
+                Bertemu langsung perwakilan dari 100+ universitas untuk diskusi jurusan, beasiswa, dan kehidupan kampus
               </p>
             </CardContent>
           </Card>
@@ -56,10 +56,10 @@ export function BentoGrid6() {
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                Universal Search
+                Informasi Beasiswa Lengkap
               </h3>
               <p className="text-muted-foreground">
-                Find any discussion across all meetings
+                Akses informasi beasiswa dari berbagai universitas dalam dan luar negeri untuk meringankan biaya kuliah
               </p>
             </CardContent>
           </Card>
@@ -74,10 +74,10 @@ export function BentoGrid6() {
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                Smart Tags
+                Talent Mapping & Bimbingan
               </h3>
               <p className="text-muted-foreground">
-                Categorize by project, topic, or participants
+                Temukan jurusan yang sesuai dengan minat dan bakat Anda melalui sesi talent mapping eksklusif
               </p>
             </CardContent>
           </Card>
@@ -99,10 +99,10 @@ export function BentoGrid6() {
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                Team Insights
+                Simulasi Kehidupan Kampus
               </h3>
               <p className="text-muted-foreground">
-                Meeting analytics and participation metrics
+                Rasakan pengalaman kuliah nyata melalui mini-class dan simulasi kegiatan perkuliahan dari berbagai jurusan
               </p>
             </CardContent>
           </Card>

@@ -28,13 +28,13 @@ export function LogoSection7() {
               {[...logosData, ...logosData].map((logo, index) => (
                 <div
                   key={index}
-                  className="w-48 flex-shrink-0 flex justify-center"
+                  className="w-36 flex-shrink-0 flex justify-center"
                 >
                   <Image
                     src={logo.src}
                     alt={`Logo ${logo.id}`}
-                    width={120}
-                    height={50}
+                    width={90}
+                    height={40}
                     className="object-contain opacity-80 hover:opacity-100 transition"
                   />
                 </div>
