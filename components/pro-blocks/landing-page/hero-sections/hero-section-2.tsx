@@ -80,7 +80,8 @@ export function HeroSection2() {
               alt="Hero visual"
               fill
               priority
-              className="h-full w-full rounded-xl object-cover"
+              sizes="100vw"
+              className="rounded-xl object-cover"
             />
           </AspectRatio>
         </div>
